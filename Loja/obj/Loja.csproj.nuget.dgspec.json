@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_ws\\c#\\loja2\\ENTITYFRAMEWORK\\Loja\\Loja.csproj": {}
+    "C:\\Temp\\Nova pasta\\ENTITYFRAMEWORK\\Loja\\Loja.csproj": {}
   },
   "projects": {
-    "C:\\_ws\\c#\\loja2\\ENTITYFRAMEWORK\\Loja\\Loja.csproj": {
+    "C:\\Temp\\Nova pasta\\ENTITYFRAMEWORK\\Loja\\Loja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_ws\\c#\\loja2\\ENTITYFRAMEWORK\\Loja\\Loja.csproj",
+        "projectUniqueName": "C:\\Temp\\Nova pasta\\ENTITYFRAMEWORK\\Loja\\Loja.csproj",
         "projectName": "Loja",
-        "projectPath": "C:\\_ws\\c#\\loja2\\ENTITYFRAMEWORK\\Loja\\Loja.csproj",
-        "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
-        "outputPath": "C:\\_ws\\c#\\loja2\\ENTITYFRAMEWORK\\Loja\\obj\\",
+        "projectPath": "C:\\Temp\\Nova pasta\\ENTITYFRAMEWORK\\Loja\\Loja.csproj",
+        "packagesPath": "C:\\Users\\mikae\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\Nova pasta\\ENTITYFRAMEWORK\\Loja\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mikae\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,33 +32,36 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[6.0.0, )"
             },
-            "Microsoft.EntityframeworkCore": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.2, )"
             },
-            "Microsoft.EntityframeworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Pomelo.EntityframeworkCore.MySql": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.17.0, )"
             }
           },
           "imports": [
@@ -86,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

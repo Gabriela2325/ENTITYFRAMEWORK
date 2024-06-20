@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace loja.data{
     public class LojaDbContextFactory : IDesignTimeDbContextFactory<LojaDbContext>{
